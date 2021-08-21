@@ -1,0 +1,29 @@
+.leader-container{
+    position: relative;
+    left : 0;
+    width: 60%;
+    height: 30%;
+    margin-top: 10px;
+}
+.leader-container img {
+    width: 100%;
+    height: 100%;
+}
+.tooltip{
+    margin-left: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: black;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    margin-top: 0;
+    z-index: -1;
+}
+.leader-container:hover .tooltip{
+    opacity: 0.8;
+
+}
+.tooltip-text{
+    color : white;
+}
